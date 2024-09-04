@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Output directories
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage directory used by testing tools like Jest or Istanbul
+coverage/
+.nyc_output
+
+# Environment variables files
+.env
+.env.*.local
+.env.local
+
+# IDE/Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Debug and REPL files
+node_repl_history
+*.tgz
+
+# Docker files
+docker-compose.override.yml
+
+# Temporary files created by build systems
+*.tmp
