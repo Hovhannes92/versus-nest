@@ -1,0 +1,17 @@
+version: '1.0'
+
+services:
+  postgres:
+    image: postgres:13  # Use the version you prefer
+    container_name: postgres_container
+    environment:
+      POSTGRES_USER: testuser
+      POSTGRES_PASSWORD: testpassword
+      POSTGRES_DB: testdb
+    ports:
+      - "5432:5432" # Map PostgreSQL port 5432 to localhost
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # Persist PostgreSQL data
+
+volumes:
+  postgres_data:
